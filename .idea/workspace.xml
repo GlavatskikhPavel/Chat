@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06bfab90-ac6a-45b9-84b9-a1957fdf304a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/glavatskikh/client/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/glavatskikh/client/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/ru/glavatskikh/client/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/ru/glavatskikh/client/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/ru/glavatskikh/client/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/ru/glavatskikh/client/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/ru/glavatskikh/client/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/ru/glavatskikh/client/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/server/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +57,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -46,8 +66,27 @@
       <recent name="C:\Users\Pavel\IdeaProjects\chat\client\src" />
       <recent name="C:\Users\Pavel\IdeaProjects\chat\server\src\server" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel\IdeaProjects\chat\client\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.ru.glavatskikh.client" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.ru.glavatskikh.client.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.glavatskikh.client.ChatClient" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.glavatskikh.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server.ServerStart" />
       <module name="server" />
@@ -75,6 +114,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.ru.glavatskikh.client.ChatClient" />
       <item itemvalue="Application.ServerStart" />
     </list>
@@ -82,6 +122,7 @@
       <list>
         <item itemvalue="Application.ru.glavatskikh.client.ChatClient" />
         <item itemvalue="Application.ServerStart" />
+        <item itemvalue="Application.ChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710160074129</updated>
-      <workItem from="1710160076103" duration="3820000" />
+      <workItem from="1710160076103" duration="19069000" />
     </task>
     <servers />
   </component>

@@ -10,6 +10,7 @@
   <modules>
     <module>server</module>
     <module>client</module>
+      <module>commands</module>
   </modules>
   <packaging>pom</packaging>
 
