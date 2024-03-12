@@ -44,9 +44,9 @@ public class Server {
         }
     }
 
-    public void broadcastMessage(String message) {
+    public void broadcastMessage(String message, String senderNickName) {
         for (ClientHandler client : clients) {
-            client.sendMessage(message);
+            client.sendMessage(String.format("[ %s ]: %s", senderNickName, message));
         }
     }
 

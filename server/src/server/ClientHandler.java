@@ -51,7 +51,7 @@ public class ClientHandler {
                         out.writeUTF(message);
                         break;
                     }
-                    server.broadcastMessage(message);
+                    server.broadcastMessage(message, nickName);
                     System.out.println("Client " + message);
                 }
             } catch (Exception e) {
